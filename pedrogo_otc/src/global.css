@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body, html {
+	font-family: 'Courier New', Courier, monospace;
+	background-color: #f8ecde;
+	color: #08060b;
+}
+
+* {
+	font-family: "Shantell Sans", cursive;
+	font-optical-sizing: auto;
+}
+
+.pedro-logo {
+	width: 120px;
+}
+
+.pedro-bg-grey {
+	color: #08060b;
+	background-color: #f6f7f9;
+}
+.pedro-bg-dark {
+	color: #ffffff;
+	background-color: #08060b;
+}
+.pedro-bg-darkyellow {
+	color: #08060b;
+	background-color: #FBB829;
+}
+.pedro-bg-yellow {
+	color: #08060b;
+	background-color: #fcd092;
+}
+.pedro-bg-lightblue {
+	color: #08060b;
+	background-color: #cbdcf9;
+}
+.pedro-bg-pink {
+	color: #ffffff;
+	background-color: #e87db3;
+}
+.pedro-bg-teal {
+	color: #08060b;
+	background-color: #6ACFAC;
+}
+.pedro-bg-red {
+	color: #ffffff;
+	background-color: #FF4040;
+}
+.pedro-bg-purple {
+	color: #08060b;
+	background-color: #BD93D2;
+}
+
+.pedro-shadow {
+	transition: box-shadow .1s,transform .1s;
+	box-shadow: 3px 3px #08060b;
+}
+.pedro-border {
+	border: solid 3px #08060b;
+	border-radius: 10px;
+}
+
+.pedro-btn {
+	padding: .8em;
+	font-size: 1em;
+	text-align: center;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: box-shadow .1s,transform .1s;
+	box-shadow: 3px 3px #08060b;
+	cursor: pointer;
+}
+.pedro-btn:hover {
+	transform: translate(2px,2px);
+	box-shadow: .0rem .0rem;
+}
+
+.pedro-btn-m {
+	padding: .22em;
+	font-size: 1em;
+}
+
+.pedro-link-xs {
+	color: #08060b;
+	text-decoration: none;
+	font-size: .7em
+}
+.pedro-link-xs:hover {
+	color: #08060b;
+	text-decoration: underline;
+}
+
+.pedro-link-xl {
+	color: #08060b;
+	text-decoration: none;
+	font-size: 1em;
+}
+.pedro-link-xl:hover {
+	color: #08060b;
+	text-decoration: underline;
+}
+
+.follow-btn-1 {
+	width: 67px
+}
+.follow-btn-2 {
+	width: 80px
+}
+.follow-btn-3 {
+	width: 80px
+}
+
+/* Sweet Alert 2 */
+.swal2-toast-shown .swal2-container {
+	width: 400px!important;
+	max-width: 500px!important;
+}
+
+.swal2-modal,
+.swal2-toast {
+	border: solid 3px #08060b;
+	border-radius: 10px;
+	transition: box-shadow .1s,transform .1s;
+	box-shadow: 3px 3px #08060b;
+	padding: 0.5em!important;
+}
+
+.swal2-confirm {
+	color: #08060b;
+	background-color: #6ACFAC;
+	width: 200px;
+}
+
+.swal2-styled {
+	padding: 1em;
+	font-size: 1em;
+	text-align: center;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: solid 3px #08060b;
+	border-radius: 10px;
+	transition: box-shadow .1s,transform .1s;
+	box-shadow: 3px 3px #08060b;
+	cursor: pointer;
+}
+
+.pedro-table {
+	--bs-table-bg: transparent!important;
+	--bs-table-border-color: #08060b!important;
+	--bs-table-color: #08060b!important;
+	vertical-align: middle;
+	text-align: center;
+	--bs-border-width: 2px!important;
+}
+
+.pedro-table thead td {
+	font-weight: 600;
+}
+
+.pedro-table tbody td {
+	padding-top: .8em;
+	padding-bottom: .8em;
+}
+
+.alert-warning {
+	color: #08060b;
+	background-color: #fcd092;
+}
+
+.mintra-color {
+	color: rgb(59, 216, 116);
+}
+
+.text-gradient {
+	background:linear-gradient(1turn,hsla(0,0%,100%,.6) -7.95%,
+									 hsla(0,0%,100%,.456) 8.42%,
+									 hsla(0,0%,100%,.216) 36.7%,
+									 hsla(0,0%,100%,.06) 56.8%,
+									 hsla(0,0%,100%,0) 66.48%),
+									 linear-gradient(90deg,#FB000A 3%,
+									 					   #db10ea 35%,
+														   #304cff 68%,
+														   #00e0ff);
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	font-style: normal;
+	position: relative
+}
+
+@keyframes rainbow {
+	0% { background-position: 0% 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0% 50%; }
+}
+.rainbow {
+	background: linear-gradient(270deg, #FB000A, #db10ea, #304cff, #00e0ff);
+	background-size: 400% 400%;
+	animation: rainbow 3s ease infinite;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}

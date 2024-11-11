@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+.w-30px {
+	width: 30px;
+}
+
+.nav-item {
+	margin: .25rem;
+}
+
+.nav-link {
+	padding: .7em;
+	font-size: 1em;
+	text-align: center;
+	font-weight: 700;
+	text-decoration: none;
+	transition: box-shadow .1s,transform .1s;
+	box-shadow: 3px 3px #08060b;
+	border: solid 3px #08060b!important;
+	border-radius: 10px!important;
+	color: #08060b!important;
+	background-color: #b58cff!important;
+	cursor: pointer;
+}
+.nav-link:hover {
+	background-color: #FBB829!important;
+	transform: translate(2px,2px);
+	box-shadow: .0rem .0rem;
+}
+.nav-link.active {
+	background-color: #FBB829!important;
+}
+
+.pedrogo-main {
+	padding-top: 100px;
+	padding-bottom: 200px;
+}
+
+.pedrogo-section-image {
+    width: 100%;
+}
+
+.pedrogo-section-title {
+    display: block;
+	font-size: 25px;
+	font-weight: 600;
+	text-align: center;
+	padding: 0.25em;
+}
+
+.pedrogo-action-title {
+    display: block;
+    font-size: 28px;
+	font-weight: 700;
+    margin-bottom: 0.3rem;
+}
+
+.pedrogo-action-subtitle {
+    display: block;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.pedrogo-plus-coins {
+    font-size: 22px;
+    font-weight: 700;
+    color: #FFBF00;
+}
+.pedrogo-coins {
+    width: 25px;
+}
+
+.pedrogo-buddielist li {
+    font-size: 20px;
+    font-weight: 600;
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+#countdown {
+	font-size: 80px;
+	/*font-family: "Black Ops One", system-ui;*/
+	font-family: "Rampart One", sans-serif;
+}
+
+@media (min-width: 768px) {
+    .pedrogo-section-image {
+        width: 35%;
+    }
+
+    .pedrogo-section-title {
+        font-size: 45px;
+    }
+
+    .pedrogo-section-title {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+	.gap {
+		margin-top: 40px;
+	}
+
+	.container-lg {
+		width: 100%;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.pedrogo-main {
+		padding-top: 57px;
+	}
+}
